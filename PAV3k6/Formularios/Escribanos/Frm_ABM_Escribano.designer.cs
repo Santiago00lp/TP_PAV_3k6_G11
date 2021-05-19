@@ -30,6 +30,7 @@ namespace PAV3k6.Formularios.Escribanos
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_ABM_Escribano));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btn_Filtrar = new System.Windows.Forms.Button();
             this.grp_Filtro2 = new System.Windows.Forms.GroupBox();
@@ -43,10 +44,9 @@ namespace PAV3k6.Formularios.Escribanos
             this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.matricula = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btn_AltaEscribano = new System.Windows.Forms.Button();
-            this.btn_BajaEscribano = new System.Windows.Forms.Button();
             this.btn_ModificarEscribano = new System.Windows.Forms.Button();
-            this.btn_Salir = new System.Windows.Forms.Button();
+            this.btn_BajaEscribano = new System.Windows.Forms.Button();
+            this.btn_AltaEscribano = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.grp_Filtro2.SuspendLayout();
             this.grp_Filtro.SuspendLayout();
@@ -171,7 +171,7 @@ namespace PAV3k6.Formularios.Escribanos
             this.gdr_Escribanos.Name = "gdr_Escribanos";
             this.gdr_Escribanos.ReadOnly = true;
             this.gdr_Escribanos.Size = new System.Drawing.Size(443, 298);
-            this.gdr_Escribanos.TabIndex = 2;
+            this.gdr_Escribanos.TabIndex = 0;
             this.gdr_Escribanos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gdr_Escribanos_CellClick);
             this.gdr_Escribanos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gdr_Escribanos_CellDoubleClick);
             // 
@@ -198,62 +198,55 @@ namespace PAV3k6.Formularios.Escribanos
             this.matricula.Name = "matricula";
             this.matricula.ReadOnly = true;
             // 
-            // btn_AltaEscribano
-            // 
-            this.btn_AltaEscribano.Location = new System.Drawing.Point(92, 417);
-            this.btn_AltaEscribano.Name = "btn_AltaEscribano";
-            this.btn_AltaEscribano.Size = new System.Drawing.Size(75, 23);
-            this.btn_AltaEscribano.TabIndex = 1;
-            this.btn_AltaEscribano.Text = "Alta";
-            this.btn_AltaEscribano.UseVisualStyleBackColor = true;
-            this.btn_AltaEscribano.Click += new System.EventHandler(this.btn_AltaEscribano_Click);
-            // 
-            // btn_BajaEscribano
-            // 
-            this.btn_BajaEscribano.Location = new System.Drawing.Point(517, 417);
-            this.btn_BajaEscribano.Name = "btn_BajaEscribano";
-            this.btn_BajaEscribano.Size = new System.Drawing.Size(75, 23);
-            this.btn_BajaEscribano.TabIndex = 3;
-            this.btn_BajaEscribano.Text = "Baja";
-            this.btn_BajaEscribano.UseVisualStyleBackColor = true;
-            this.btn_BajaEscribano.Click += new System.EventHandler(this.btn_BajaEscribano_Click);
-            // 
             // btn_ModificarEscribano
             // 
-            this.btn_ModificarEscribano.Location = new System.Drawing.Point(314, 417);
+            this.btn_ModificarEscribano.BackgroundImage = global::PAV3k6.Properties.Resources.Modificar_Escribano;
+            this.btn_ModificarEscribano.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_ModificarEscribano.Location = new System.Drawing.Point(540, 390);
             this.btn_ModificarEscribano.Name = "btn_ModificarEscribano";
-            this.btn_ModificarEscribano.Size = new System.Drawing.Size(75, 23);
+            this.btn_ModificarEscribano.Size = new System.Drawing.Size(57, 44);
             this.btn_ModificarEscribano.TabIndex = 2;
-            this.btn_ModificarEscribano.Text = "Modificar";
             this.btn_ModificarEscribano.UseVisualStyleBackColor = true;
             this.btn_ModificarEscribano.Click += new System.EventHandler(this.btn_ModificarEscribano_Click);
             // 
-            // btn_Salir
+            // btn_BajaEscribano
             // 
-            this.btn_Salir.Location = new System.Drawing.Point(775, 417);
-            this.btn_Salir.Name = "btn_Salir";
-            this.btn_Salir.Size = new System.Drawing.Size(51, 43);
-            this.btn_Salir.TabIndex = 4;
-            this.btn_Salir.Text = "salir";
-            this.btn_Salir.UseVisualStyleBackColor = true;
-            this.btn_Salir.Click += new System.EventHandler(this.btn_Salir_Click);
+            this.btn_BajaEscribano.BackgroundImage = global::PAV3k6.Properties.Resources.Borrar_Escribano;
+            this.btn_BajaEscribano.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_BajaEscribano.Location = new System.Drawing.Point(684, 390);
+            this.btn_BajaEscribano.Name = "btn_BajaEscribano";
+            this.btn_BajaEscribano.Size = new System.Drawing.Size(59, 44);
+            this.btn_BajaEscribano.TabIndex = 3;
+            this.btn_BajaEscribano.UseVisualStyleBackColor = true;
+            this.btn_BajaEscribano.Click += new System.EventHandler(this.btn_BajaEscribano_Click);
+            // 
+            // btn_AltaEscribano
+            // 
+            this.btn_AltaEscribano.BackgroundImage = global::PAV3k6.Properties.Resources.Agregar_Escribano;
+            this.btn_AltaEscribano.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_AltaEscribano.Location = new System.Drawing.Point(387, 390);
+            this.btn_AltaEscribano.Name = "btn_AltaEscribano";
+            this.btn_AltaEscribano.Size = new System.Drawing.Size(56, 44);
+            this.btn_AltaEscribano.TabIndex = 1;
+            this.btn_AltaEscribano.UseVisualStyleBackColor = true;
+            this.btn_AltaEscribano.Click += new System.EventHandler(this.btn_AltaEscribano_Click);
             // 
             // Frm_ABM_Escribano
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(838, 484);
-            this.Controls.Add(this.btn_Salir);
+            this.ClientSize = new System.Drawing.Size(811, 458);
             this.Controls.Add(this.btn_ModificarEscribano);
             this.Controls.Add(this.btn_BajaEscribano);
             this.Controls.Add(this.btn_AltaEscribano);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_ABM_Escribano";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Administracion de Escribanos";
+            this.Text = "Gestion de Escribanos";
             this.Load += new System.EventHandler(this.Frm_ABM_Escribano_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -275,7 +268,6 @@ namespace PAV3k6.Formularios.Escribanos
         private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Apellido;
         private System.Windows.Forms.DataGridViewTextBoxColumn matricula;
-        private System.Windows.Forms.Button btn_Salir;
         private System.Windows.Forms.GroupBox grp_Filtro;
         private System.Windows.Forms.CheckBox chk_Filtro;
         private System.Windows.Forms.GroupBox grp_Filtro2;

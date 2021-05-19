@@ -47,7 +47,7 @@ namespace PAV3k6.Formularios.Escribanos
             // 
             // txt_Matricula
             // 
-            this.txt_Matricula.Location = new System.Drawing.Point(200, 44);
+            this.txt_Matricula.Location = new System.Drawing.Point(183, 42);
             this.txt_Matricula.Name = "txt_Matricula";
             this.txt_Matricula.Pp_MensajeError = "\"Matricula\" se encuentra vacio";
             this.txt_Matricula.Pp_NombreCampo = "Matricula";
@@ -59,7 +59,7 @@ namespace PAV3k6.Formularios.Escribanos
             // cmb_TipoDoc
             // 
             this.cmb_TipoDoc.FormattingEnabled = true;
-            this.cmb_TipoDoc.Location = new System.Drawing.Point(200, 131);
+            this.cmb_TipoDoc.Location = new System.Drawing.Point(183, 129);
             this.cmb_TipoDoc.Name = "cmb_TipoDoc";
             this.cmb_TipoDoc.Pp_Conseleccion = false;
             this.cmb_TipoDoc.Pp_descripcion = "Nombre_tipo_documento";
@@ -74,7 +74,7 @@ namespace PAV3k6.Formularios.Escribanos
             // 
             // txt_NroDoc
             // 
-            this.txt_NroDoc.Location = new System.Drawing.Point(200, 161);
+            this.txt_NroDoc.Location = new System.Drawing.Point(183, 159);
             this.txt_NroDoc.Name = "txt_NroDoc";
             this.txt_NroDoc.Pp_MensajeError = "\"Numero de documento\" se encuentra vacio";
             this.txt_NroDoc.Pp_NombreCampo = "Documento";
@@ -85,7 +85,7 @@ namespace PAV3k6.Formularios.Escribanos
             // 
             // txt_Apellido
             // 
-            this.txt_Apellido.Location = new System.Drawing.Point(200, 102);
+            this.txt_Apellido.Location = new System.Drawing.Point(183, 100);
             this.txt_Apellido.Name = "txt_Apellido";
             this.txt_Apellido.Pp_MensajeError = "\"Apellido\" se encuentra vacio";
             this.txt_Apellido.Pp_NombreCampo = "Apellido";
@@ -96,7 +96,7 @@ namespace PAV3k6.Formularios.Escribanos
             // 
             // txt_Nombre
             // 
-            this.txt_Nombre.Location = new System.Drawing.Point(200, 73);
+            this.txt_Nombre.Location = new System.Drawing.Point(183, 71);
             this.txt_Nombre.Name = "txt_Nombre";
             this.txt_Nombre.Pp_MensajeError = "\"Nombre\" se encuentra vacio";
             this.txt_Nombre.Pp_NombreCampo = "Nombre";
@@ -109,7 +109,7 @@ namespace PAV3k6.Formularios.Escribanos
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(125, 47);
+            this.label1.Location = new System.Drawing.Point(108, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 17);
             this.label1.TabIndex = 5;
@@ -118,7 +118,7 @@ namespace PAV3k6.Formularios.Escribanos
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(132, 76);
+            this.label2.Location = new System.Drawing.Point(115, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(62, 17);
             this.label2.TabIndex = 6;
@@ -127,7 +127,7 @@ namespace PAV3k6.Formularios.Escribanos
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(132, 105);
+            this.label3.Location = new System.Drawing.Point(115, 103);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 17);
             this.label3.TabIndex = 7;
@@ -136,7 +136,7 @@ namespace PAV3k6.Formularios.Escribanos
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(60, 134);
+            this.label4.Location = new System.Drawing.Point(43, 132);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(134, 17);
             this.label4.TabIndex = 8;
@@ -145,7 +145,7 @@ namespace PAV3k6.Formularios.Escribanos
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(42, 164);
+            this.label5.Location = new System.Drawing.Point(25, 162);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(152, 17);
             this.label5.TabIndex = 9;
@@ -163,28 +163,28 @@ namespace PAV3k6.Formularios.Escribanos
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txt_Apellido);
             this.groupBox1.Controls.Add(this.txt_Nombre);
-            this.groupBox1.Location = new System.Drawing.Point(22, 47);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(370, 259);
+            this.groupBox1.Size = new System.Drawing.Size(370, 208);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos del Escribano";
             // 
             // btn_Aceptar
             // 
-            this.btn_Aceptar.Location = new System.Drawing.Point(110, 344);
+            this.btn_Aceptar.Location = new System.Drawing.Point(88, 226);
             this.btn_Aceptar.Name = "btn_Aceptar";
-            this.btn_Aceptar.Size = new System.Drawing.Size(75, 23);
+            this.btn_Aceptar.Size = new System.Drawing.Size(75, 33);
             this.btn_Aceptar.TabIndex = 1;
-            this.btn_Aceptar.Text = "Aceptar";
+            this.btn_Aceptar.Text = "Agregar";
             this.btn_Aceptar.UseVisualStyleBackColor = true;
             this.btn_Aceptar.Click += new System.EventHandler(this.btn_Aceptar_Click);
             // 
             // btn_Cancelar
             // 
-            this.btn_Cancelar.Location = new System.Drawing.Point(246, 344);
+            this.btn_Cancelar.Location = new System.Drawing.Point(224, 226);
             this.btn_Cancelar.Name = "btn_Cancelar";
-            this.btn_Cancelar.Size = new System.Drawing.Size(75, 23);
+            this.btn_Cancelar.Size = new System.Drawing.Size(75, 33);
             this.btn_Cancelar.TabIndex = 2;
             this.btn_Cancelar.Text = "Cancelar";
             this.btn_Cancelar.UseVisualStyleBackColor = true;
@@ -194,16 +194,17 @@ namespace PAV3k6.Formularios.Escribanos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(416, 444);
+            this.ClientSize = new System.Drawing.Size(393, 268);
             this.Controls.Add(this.btn_Cancelar);
             this.Controls.Add(this.btn_Aceptar);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "Frm_Alta_Escribano";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Frm_Alta_Escribano";
+            this.Text = "Agregar Escribano";
             this.Load += new System.EventHandler(this.Frm_Alta_Escribano_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

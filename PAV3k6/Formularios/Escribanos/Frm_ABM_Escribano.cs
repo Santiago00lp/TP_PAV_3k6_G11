@@ -99,11 +99,6 @@ namespace PAV3k6.Formularios.Escribanos
             }
         }
 
-        private void btn_Salir_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void chk_Filtro_CheckedChanged(object sender, EventArgs e)
         {
             if (chk_Filtro.Checked)

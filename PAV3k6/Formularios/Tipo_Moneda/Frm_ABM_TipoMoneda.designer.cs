@@ -82,9 +82,9 @@ namespace PAV3k6.Formularios.Tipo_Moneda
             // 
             this.btn_Alta.Location = new System.Drawing.Point(12, 230);
             this.btn_Alta.Name = "btn_Alta";
-            this.btn_Alta.Size = new System.Drawing.Size(75, 23);
+            this.btn_Alta.Size = new System.Drawing.Size(75, 35);
             this.btn_Alta.TabIndex = 1;
-            this.btn_Alta.Text = "Alta";
+            this.btn_Alta.Text = "Agregar Moneda";
             this.btn_Alta.UseVisualStyleBackColor = true;
             this.btn_Alta.Click += new System.EventHandler(this.btn_Alta_Click);
             // 
@@ -92,9 +92,9 @@ namespace PAV3k6.Formularios.Tipo_Moneda
             // 
             this.btn_Modificar.Location = new System.Drawing.Point(123, 230);
             this.btn_Modificar.Name = "btn_Modificar";
-            this.btn_Modificar.Size = new System.Drawing.Size(75, 23);
+            this.btn_Modificar.Size = new System.Drawing.Size(75, 35);
             this.btn_Modificar.TabIndex = 2;
-            this.btn_Modificar.Text = "Modificar";
+            this.btn_Modificar.Text = "Modificar Moneda";
             this.btn_Modificar.UseVisualStyleBackColor = true;
             this.btn_Modificar.Click += new System.EventHandler(this.btn_Modificar_Click);
             // 
@@ -102,9 +102,9 @@ namespace PAV3k6.Formularios.Tipo_Moneda
             // 
             this.btn_Baja.Location = new System.Drawing.Point(238, 230);
             this.btn_Baja.Name = "btn_Baja";
-            this.btn_Baja.Size = new System.Drawing.Size(75, 23);
+            this.btn_Baja.Size = new System.Drawing.Size(75, 35);
             this.btn_Baja.TabIndex = 3;
-            this.btn_Baja.Text = "Baja";
+            this.btn_Baja.Text = "Eliminar Moneda";
             this.btn_Baja.UseVisualStyleBackColor = true;
             this.btn_Baja.Click += new System.EventHandler(this.btn_Baja_Click);
             // 
@@ -112,7 +112,7 @@ namespace PAV3k6.Formularios.Tipo_Moneda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(337, 267);
+            this.ClientSize = new System.Drawing.Size(323, 273);
             this.Controls.Add(this.btn_Baja);
             this.Controls.Add(this.btn_Modificar);
             this.Controls.Add(this.btn_Alta);
@@ -121,7 +121,7 @@ namespace PAV3k6.Formularios.Tipo_Moneda
             this.MaximizeBox = false;
             this.Name = "Frm_ABM_TipoMoneda";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Frm_ABM_TipoMoneda";
+            this.Text = "Gestion de Tipo de Moneda";
             this.Load += new System.EventHandler(this.Frm_ABM_TipoMoneda_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gdr_TipoMoneda)).EndInit();
             this.ResumeLayout(false);

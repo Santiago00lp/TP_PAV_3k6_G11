@@ -47,7 +47,7 @@ namespace PAV3k6.Formularios.Tipo_Moneda
             this.grp_TipoMoneda.Controls.Add(this.label3);
             this.grp_TipoMoneda.Controls.Add(this.label2);
             this.grp_TipoMoneda.Controls.Add(this.label1);
-            this.grp_TipoMoneda.Location = new System.Drawing.Point(13, 28);
+            this.grp_TipoMoneda.Location = new System.Drawing.Point(13, 13);
             this.grp_TipoMoneda.Margin = new System.Windows.Forms.Padding(4);
             this.grp_TipoMoneda.Name = "grp_TipoMoneda";
             this.grp_TipoMoneda.Padding = new System.Windows.Forms.Padding(4);
@@ -110,17 +110,17 @@ namespace PAV3k6.Formularios.Tipo_Moneda
             // 
             // btn_Aceptar
             // 
-            this.btn_Aceptar.Location = new System.Drawing.Point(96, 194);
+            this.btn_Aceptar.Location = new System.Drawing.Point(98, 167);
             this.btn_Aceptar.Name = "btn_Aceptar";
             this.btn_Aceptar.Size = new System.Drawing.Size(75, 23);
             this.btn_Aceptar.TabIndex = 1;
-            this.btn_Aceptar.Text = "Aceptar";
+            this.btn_Aceptar.Text = "Modificar";
             this.btn_Aceptar.UseVisualStyleBackColor = true;
             this.btn_Aceptar.Click += new System.EventHandler(this.btn_Aceptar_Click);
             // 
             // btn_Cancelar
             // 
-            this.btn_Cancelar.Location = new System.Drawing.Point(249, 194);
+            this.btn_Cancelar.Location = new System.Drawing.Point(251, 167);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(75, 23);
             this.btn_Cancelar.TabIndex = 2;
@@ -132,7 +132,7 @@ namespace PAV3k6.Formularios.Tipo_Moneda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(432, 249);
+            this.ClientSize = new System.Drawing.Size(425, 203);
             this.Controls.Add(this.btn_Cancelar);
             this.Controls.Add(this.btn_Aceptar);
             this.Controls.Add(this.grp_TipoMoneda);
