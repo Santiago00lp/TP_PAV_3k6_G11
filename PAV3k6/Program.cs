@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PAV3k6.Formularios;
+using PAV3k6.Formularios.Escribanos;
+using PAV3k6.Formularios.Tipo_Moneda;
+
 
 namespace PAV3k6
 {
@@ -16,7 +20,7 @@ namespace PAV3k6
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_Escritorio());
+            Application.Run(new Frm_ABM_Escribano());
         }
     }
 }
