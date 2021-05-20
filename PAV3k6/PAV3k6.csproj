@@ -56,14 +56,98 @@
     <Compile Include="Clases\TextBoxHeredado.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Clases\TratamientosEspeciales.cs" />
+    <Compile Include="Formularios\Escribanos\Frm_ABM_Escribano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Escribanos\Frm_ABM_Escribano.designer.cs">
+      <DependentUpon>Frm_ABM_Escribano.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Escribanos\Frm_Alta_Escribano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Escribanos\Frm_Alta_Escribano.designer.cs">
+      <DependentUpon>Frm_Alta_Escribano.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Escribanos\Frm_Baja_Escribano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Escribanos\Frm_Baja_Escribano.designer.cs">
+      <DependentUpon>Frm_Baja_Escribano.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Escribanos\Frm_Info_Escribano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Escribanos\Frm_Info_Escribano.designer.cs">
+      <DependentUpon>Frm_Info_Escribano.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Escribanos\Frm_Modificar_Escribano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Escribanos\Frm_Modificar_Escribano.designer.cs">
+      <DependentUpon>Frm_Modificar_Escribano.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Tipo_Moneda\Frm_ABM_TipoMoneda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Tipo_Moneda\Frm_ABM_TipoMoneda.designer.cs">
+      <DependentUpon>Frm_ABM_TipoMoneda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Tipo_Moneda\Frm_Alta_TipoMoneda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Tipo_Moneda\Frm_Alta_TipoMoneda.designer.cs">
+      <DependentUpon>Frm_Alta_TipoMoneda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Tipo_Moneda\Frm_Baja_TipoMoneda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Tipo_Moneda\Frm_Baja_TipoMoneda.designer.cs">
+      <DependentUpon>Frm_Baja_TipoMoneda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Tipo_Moneda\Frm_Modificar_TipoMoneda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Tipo_Moneda\Frm_Modificar_TipoMoneda.designer.cs">
+      <DependentUpon>Frm_Modificar_TipoMoneda.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Escritorio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_Escritorio.Designer.cs">
       <DependentUpon>Frm_Escritorio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Negocio\NE_Escribanos.cs" />
+    <Compile Include="Negocio\NE_Tipo_Moneda.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\Escribanos\Frm_ABM_Escribano.resx">
+      <DependentUpon>Frm_ABM_Escribano.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Escribanos\Frm_Alta_Escribano.resx">
+      <DependentUpon>Frm_Alta_Escribano.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Escribanos\Frm_Baja_Escribano.resx">
+      <DependentUpon>Frm_Baja_Escribano.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Escribanos\Frm_Info_Escribano.resx">
+      <DependentUpon>Frm_Info_Escribano.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Escribanos\Frm_Modificar_Escribano.resx">
+      <DependentUpon>Frm_Modificar_Escribano.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Tipo_Moneda\Frm_ABM_TipoMoneda.resx">
+      <DependentUpon>Frm_ABM_TipoMoneda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Tipo_Moneda\Frm_Alta_TipoMoneda.resx">
+      <DependentUpon>Frm_Alta_TipoMoneda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Tipo_Moneda\Frm_Baja_TipoMoneda.resx">
+      <DependentUpon>Frm_Baja_TipoMoneda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Tipo_Moneda\Frm_Modificar_TipoMoneda.resx">
+      <DependentUpon>Frm_Modificar_TipoMoneda.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Escritorio.resx">
       <DependentUpon>Frm_Escritorio.cs</DependentUpon>
     </EmbeddedResource>
@@ -75,6 +159,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -90,8 +175,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Formularios\" />
-    <Folder Include="Negocio\" />
+    <None Include="Resources\Agregar Escribano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modificar Escribano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Borrar Escribano.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
